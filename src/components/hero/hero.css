@@ -1,0 +1,34 @@
+.Hero {
+  background-image: url("../../static/images/my_image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(217, 237, 234);
+}
+
+.Hero-content {
+  /* max-width: 600px; */
+  width: 100%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* .Hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  } */
+
+/* .Hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  } */
+
+

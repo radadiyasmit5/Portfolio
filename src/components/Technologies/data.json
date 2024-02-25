@@ -1,0 +1,24 @@
+{
+    "data":[
+        {"technology":"JavaScript","percentage":"80","iconclass":"devicon-javascript-plain colored"},
+        {"technology":"TypeScript","percentage":"80","iconclass":"devicon-typescript-plain colored"},
+        {"technology":"React Js","percentage":"80","iconclass":"devicon-react-original colored"},
+        {"technology":"Redux","percentage":"80","iconclass":"devicon-redux-original colored"},
+        {"technology":"Express","percentage":"80","iconclass":"devicon-express-original colored"},
+        {"technology":"Node JS","percentage":"80","iconclass":"devicon-nodejs-plain-wordmark colored"},
+        {"technology":"Postman","percentage":"80","iconclass":"devicon-postman-plain colored"},
+        {"technology":"HTML","percentage":"80","iconclass":"devicon-html5-plain colored"},
+        {"technology":"CSS","percentage":"80","iconclass":"devicon-css3-plain colored"},
+        {"technology":"Bootstrap","percentage":"80","iconclass":"devicon-bootstrap-plain colored"},
+        {"technology":"Tailwind CSS","percentage":"80","iconclass":"devicon-tailwindcss-original colored"},
+        {"technology":"MongoDB","percentage":"80","iconclass":"devicon-mongodb-plain colored"},
+        {"technology":"Git","percentage":"80","iconclass":"devicon-git-plain colored"},
+        {"technology":"Docker","percentage":"80","iconclass":"devicon-docker-plain colored"},
+        {"technology":"Kubernetes","percentage":"80","iconclass":"devicon-kubernetes-plain colored"},
+        {"technology":"Helm","percentage":"80","iconclass":"devicon-helm-original colored"},
+        {"technology":"AWS","percentage":"80","iconclass":"devicon-amazonwebservices-plain-wordmark colored"},
+        {"technology":"Webpack","percentage":"80","iconclass":"devicon-webpack-plain colored"},
+        {"technology":"Gitlab","percentage":"80","iconclass":"devicon-gitlab-plain colored"},
+        {"technology":"CI/CD","percentage":"80","iconclass":"devicon-jenkins-line colored"}
+]
+}

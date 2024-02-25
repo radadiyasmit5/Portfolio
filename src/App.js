@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useContext, useEffect} from "react"
+import {useNavigate} from "react-router-dom"
+import {SectionContext} from "./context/SectionScrollContext"
+import Redirection from "./Redirection"
 
-function App() {
+const App = () => {
+  const navigate = useNavigate()
+  const {handleSectionchange, heroRef} = useContext(SectionContext)
+
+  // useEffect(() => {
+  //   window.onload = () => {
+  //     console.log("reloaded")
+  //     console.log(heroRef);
+  //     handleSectionchange(heroRef)
+  //   }
+  // }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Redirection />
+    </>
+  )
 }
 
-export default App;
+export default App
