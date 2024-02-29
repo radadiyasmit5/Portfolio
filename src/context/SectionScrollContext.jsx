@@ -12,6 +12,7 @@ export const SectionScrollContext = ({children}) => {
   const experienceRef = useRef(null)
   const technologiesRef = useRef(null)
   const headerRef = useRef(null)
+  const contactRef = useRef(null)
   return (
     <SectionContext.Provider
       value={{
@@ -20,6 +21,7 @@ export const SectionScrollContext = ({children}) => {
         experienceRef,
         technologiesRef,
         headerRef,
+        contactRef
       }}
     >
       {children}

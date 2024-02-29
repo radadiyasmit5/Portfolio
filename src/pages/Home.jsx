@@ -1,12 +1,13 @@
 import React, {useContext, useEffect, useRef, useState} from "react"
 import {useLocation, useNavigate, useParams} from "react-router-dom"
+import ContactForm from "../components/Contact/ContactForm"
 import Experience from "../components/Experience/Experience"
 import Hero from "../components/hero/Hero"
 import Technologies from "../components/Technologies/Technologies"
 import {SectionContext} from "../context/SectionScrollContext"
 
 export const Home = () => {
-  const {heroRef, experienceRef,technologiesRef} = useContext(SectionContext)
+  const {heroRef, experienceRef, technologiesRef,contactRef} = useContext(SectionContext)
   // const [activeComponent, setActiveComponent] = useState(null)
 
   // useEffect(() => {
@@ -59,7 +60,8 @@ export const Home = () => {
       {" "}
       <Hero heroRef={heroRef} />
       <Experience experienceRef={experienceRef} />
-      <Technologies technologiesRef = {technologiesRef} />
+      <Technologies technologiesRef={technologiesRef} />
+      <ContactForm contactRef={contactRef}/>
     </>
   )
 }

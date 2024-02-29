@@ -11,7 +11,7 @@ const Technologies = ({technologiesRef}) => {
         <div className="skills-container">
           {techData.map((data) => (
             <div
-              class="py-2 px-4 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40 h-14"
+              class="py-2 px-4 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40 h-14 skill-item"
               style={{
                 opacity: 1,
                 transform: "none",
