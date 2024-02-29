@@ -45,6 +45,10 @@
 .socialBar {
   display: none;
 }
+
+.social-bar-container-mid {
+  display: none;
+}
 @media screen and (max-width: 480px) {
   .contact-outer {
     display: flex;
@@ -99,7 +103,7 @@
     padding: 0px 30px;
     padding-bottom: 0px;
   }
-  .social-bar-container-mid{
+  .social-bar-container-mid {
     display: block;
     padding-bottom: 10%;
   }
